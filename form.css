@@ -1,0 +1,57 @@
+body
+{
+    background-image: url('form1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.frm1
+{
+    text-align: center;
+    font-size: larger;
+    border: 1px solid black;
+    width: 100%
+}
+.table{
+    display:none;
+}
+
+#delete
+{
+    background-color:red;
+    cursor:pointer;
+    color:white;
+}
+
+#delete:hover
+{
+    background-color:black;
+    opacity: 0.7;
+}
+
+#submit
+{
+    background-color:green;
+    cursor:pointer;
+    color:white;
+}
+
+#submit:hover
+{
+    background-color:blue;
+    opacity: 0.7;
+}
+
+#edit-button,#end-editing
+{
+    background-color:purple;
+    cursor:pointer;
+    color:white; 
+}
+
+#edit-button:hover,#end-editing:hover
+{
+    background-color:rgba(rgba(136, 255, 0, 0.37), green, blue, alpha);
+    opacity: 0.7;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+  
+      <marquee behavior="alternate" direction="right"><h1>Sample candidate form</h1></marquee>
+    
+    <div class="frm1">
+      <form action="form.html" >
+
+        <label for="fname">First name:</label><br /><br />
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label><br /><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <b>Gender<br /><br /></b>
+        <input type="radio" name="gen" value="Male" />M
+        <!-- <label for="html">M</label><br> -->
+        <input type="radio" name="gen" value="Female" />F
+        <!-- <label for="css">F</label><br> -->
+        <input type="radio" name="gen" value="Others" />Others <br /><br />
+        <label for="date"><i>Date of birth:</i></label><br /><br />
+        <input type="date" id="date" /><br /><br />
+
+
+        <button  id="submit">Submit</button>
+            
+
+
+      </form>
+      <pre>
+        
+        <table id="detail">
+            <th>
+                <tr>
+                    <td>firstName</td>
+                    <td>lastName</td>
+                    <td>Gender</td>
+                    <td>Date of birth</td>
+                </tr>
+            </th>
+            <!-- <tbody id="table-body">
+              <tr>
+                <td>Prajwol</td>
+                <td>Bista</td>
+                <td>Male</td>
+                <td>2023-05-10</td>
+                <td><button id="delete" type="button" onclick="remove(this)">Delete</button>
+                  <button id="edit-button" onclick="edit(this)" >Edit</button>
+                  <button id="end-editing">Done</button>`</td>
+            </tr>
+            <tr>
+              <td>Sujit</td>
+              <td>Bista</td>
+              <td>Male</td>
+              <td>2023-05-10</td>
+              <td><button id="delete" type="button" onclick="remove(this)">Delete</button>
+              <button id="edit-button" onclick="edit(this)" >Edit</button>
+              <button id="end-editing">Done</button>`</td>
+          </tr>
+            </tbody> -->
+        </table>
+
+      </pre>
+        
+    
+    </div>
+
+    <script src="./form.js"></script>
+  </body>
+</html>
